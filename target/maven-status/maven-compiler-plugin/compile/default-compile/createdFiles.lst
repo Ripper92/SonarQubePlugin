@@ -1,0 +1,8 @@
+org/sonar/template/java/checks/package-info.class
+org/sonar/template/java/JavaCustomRulesPlugin.class
+org/sonar/template/java/JavaCustomRulesList.class
+com/juliasoft/sonarqube/plugin/AvoidRecursiveCallsPlugin$MethodInvocationTreeVisitor.class
+com/juliasoft/sonarqube/plugin/AvoidRecursiveCallsPlugin.class
+org/sonar/template/java/JavaCustomRulesDefinition.class
+org/sonar/template/java/JavaCustomRulesCheckRegistrar.class
+com/juliasoft/sonarqube/plugin/GandalfRulePlugin.class
