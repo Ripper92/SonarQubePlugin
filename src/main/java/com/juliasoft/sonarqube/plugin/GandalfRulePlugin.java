@@ -12,8 +12,13 @@ import org.sonar.plugins.java.api.tree.Tree.Kind;
 
 import java.util.List;
 
-@Rule(key = "GandalfRulePlugin", name = "Return type and parameter of a method should not be the same", description = "For a method having a single parameter, the types of its return value and its parameter should never be the same.", priority = Priority.INFO, tags = {
-		"style" })
+@Rule(
+	key = "GandalfRulePlugin", 
+	name = "Nested loops should not be more than 2", 
+	description = "A method should not have more than 2 nested loops in its definition.", 
+	priority = Priority.INFO, 
+	tags = {"style"}
+)
 
 public class GandalfRulePlugin extends IssuableSubscriptionVisitor {
 	@Override
